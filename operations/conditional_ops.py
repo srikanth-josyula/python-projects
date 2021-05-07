@@ -8,7 +8,7 @@ Created on May 7, 2021
 
 x = 5
 
-if x > 3:
+if x > 3: # observe the : after the condition
     print("it is true")
     
 # else - The else statement is used with the if statement. 
