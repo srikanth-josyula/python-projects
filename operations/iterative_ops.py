@@ -37,3 +37,21 @@ x = 0
 while x < 9:
     print(x)
     x = x + 1
+
+# The break Statement
+i = 1
+
+while i < 6:
+    print(i)
+    if i == 3:
+        break
+    i += 1
+    
+# Else in While loop
+
+i = 1
+while i < 6:
+    print(i)
+    i += 1
+else:
+    print("i is no longer less than 6")
