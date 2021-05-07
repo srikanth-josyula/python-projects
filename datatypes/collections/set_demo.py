@@ -9,6 +9,7 @@ Created on May 4, 2021
 3. In set, the order of the elements is undefined; it may return the changed sequence of the element. 
 4. The set is created by using a built-in function set(), or a sequence of elements is passed in the curly braces and separated by the comma. 
 5. It can contain various types of values.
+6. Unlike list, there is no index for set elements. It means we can only loop through the elements of the set
 """
 
 # Creating Empty set  
