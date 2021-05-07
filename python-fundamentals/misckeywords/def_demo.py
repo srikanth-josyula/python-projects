@@ -6,9 +6,10 @@ Created on May 7, 2021
 
 """""
 def - It is used to create or define a function.
+return - It is to exit a function and return a value.
 """""
 
 def my_function():
-    print("Hello world !!")
+    return "Hello world !!"
  
-my_function()
+print(my_function())
