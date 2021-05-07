@@ -29,3 +29,23 @@ elif i == 0:
     print("ZERO")
 else:
     print("Negative")
+    
+# short IF 
+a = 20
+b = 10
+if a > b: print("a is greater than b")
+
+# Short Hand If ... Else
+a = 330
+b = 330
+print("A") if a > b else print("=") if a == b else print("B")
+
+# Nested If
+x = 41
+
+if x > 10:
+    print("Above ten,")
+    if x > 20:
+        print("and also above 20!")
+    else:
+        print("but not above 20.")
