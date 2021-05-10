@@ -5,7 +5,8 @@ Created on May 10, 2021
 '''
 """
 The most Pythonic way to import classes from other directories is by using packages. 
-
+An Abstract class can contain the both method normal and abstract method.
+An Abstract cannot be instantiated; we cannot create objects for the abstract class.
 """
 from python_fundamentals.oopsconcepts.abstraction.abs_demo import Polygon
 
